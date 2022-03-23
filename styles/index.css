@@ -51,3 +51,27 @@ html, body, p, div, a, span, button {
 .but-holder a:hover {
     text-decoration: none;
 }
+
+.dIMG {
+    position: absolute;
+    bottom: 1rem;
+
+    width: 100%;
+    text-align: right;
+
+    color: whitesmoke;
+}
+
+.dIMG span {
+    padding-right: 1rem;
+}
+
+.dIMG a {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.dIMG a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
