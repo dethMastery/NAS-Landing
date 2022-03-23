@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 
-html, body, p, div, a, span {
+html, body, p, div, a, span, button {
     font-family: 'IBM Plex Sans Thai', sans-serif;
 }
 
@@ -17,16 +17,23 @@ html, body, p, div, a, span {
     vertical-align: middle;
     justify-content: center;
     align-items: center;
+    color: whitesmoke;
+    background-color: #1e2f2f;
 }
 
 .but-holder button {
     padding: 1rem;
     border-radius: 0;
-    border: 0;
+    border: 3px solid whitesmoke;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0);
+
+    font-size: 20px;
 }
 
 .but-holder a {
     text-decoration: none;
+    color: whitesmoke;
 }
 
 .but-holder a:hover {
