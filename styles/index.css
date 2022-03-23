@@ -3,22 +3,34 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #1e2f2f;
 }
 
 html, body, p, div, a, span, button {
     font-family: 'IBM Plex Sans Thai', sans-serif;
 }
 
-#app {
+.bg {
     width: 100%;
     height: 100vh;
+    background: url(../asset/bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#app {
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    height: 100vh;
     display: flex;
     vertical-align: middle;
     justify-content: center;
     align-items: center;
     color: whitesmoke;
-    background-color: #1e2f2f;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .but-holder button {
