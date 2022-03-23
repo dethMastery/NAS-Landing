@@ -18,3 +18,17 @@ html, body, p, div, a, span {
     justify-content: center;
     align-items: center;
 }
+
+.but-holder button {
+    padding: 1rem;
+    border-radius: 0;
+    border: 0;
+}
+
+.but-holder a {
+    text-decoration: none;
+}
+
+.but-holder a:hover {
+    text-decoration: none;
+}
